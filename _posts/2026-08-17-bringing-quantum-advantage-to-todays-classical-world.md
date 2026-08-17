@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bringing quantum advantage to today's classical world"
-description: "How a single-qubit quantum feature sensor can extract useful features of classical signals with exponential advantages."
+description: "A single qubit can help us learn exponentially more from the world around us."
 ---
 
 <!-- MathJax is loaded here so the inline mathematical notation in this post renders without requiring any site-wide changes. -->
