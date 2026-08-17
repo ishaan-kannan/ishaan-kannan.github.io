@@ -188,3 +188,11 @@ nav a.active::after {
   .sidebar { grid-template-columns: 1fr; gap: 0; }
   .side-block + .side-block { padding-top: 0; }
 }
+
+.pub-title {
+  font-style: italic;
+}
+
+.me {
+  font-weight: 600;
+}
