@@ -1,0 +1,36 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog · Ishaan Kannan</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="nav-band">
+    <div class="shell nav-inner">
+      <nav style="margin-left:0">
+        <a href="/">Home</a>
+        <a href="/assets/Ishaan_Kannan_CV.pdf">CV</a>
+        <a class="active" href="/blog/">Blog</a>
+      </nav>
+    </div>
+  </div>
+  <main class="article-shell">
+    <h1>Blog</h1>
+    <p>Notes, expositions, research thoughts, and occasional updates.</p>
+    <ul class="blog-list">
+      {% for post in site.posts %}
+      <li>
+        <time>{{ post.date | date: "%B %-d, %Y" }}</time><br>
+        <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+        {% if post.description %}<div>{{ post.description }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+title: Ishaan Kannan
+description: PhD Student in Quantum Science at Harvard University
+url: "https://ishaan-kannan.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
