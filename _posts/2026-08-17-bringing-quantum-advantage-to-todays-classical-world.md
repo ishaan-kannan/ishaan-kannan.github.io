@@ -135,3 +135,4 @@ Even as classical creatures evolving in a classical world, we now know that a qu
 Ishaan Kannan, Sridhar Prabhu, Saeed A. Khan, Mandar M. Sohoni, Xingrui Song, Saswata Roy, Alen Senanian, Valla Fatemi, Peter L. McMahon, and Jordan Cotler. [Exponential quantum advantage for learning signals with a single qubit](https://arxiv.org/abs/2608.13521), arXiv:2608.13521, 2026.
 
 Constantin Cedillo Vayson de Pradenne, Ishaan Kannan, Harald Putterman, and Jordan Cotler. [Restrictions on non-Clifford fault tolerance and ruling out beyond-SQL quantum metrology](https://arxiv.org/abs/2607.27342), arXiv:2607.27342, 2026.
+<!-- force blog rebuild -->
