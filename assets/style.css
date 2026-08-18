@@ -196,3 +196,32 @@ nav a.active::after {
 .me {
   font-weight: 600;
 }
+
+/* Final homepage spacing / banner fixes */
+
+/* Keep the full banner title on one line on normal desktop screens */
+.identity h1 {
+  white-space: nowrap;
+  font-size: clamp(2.5rem, 4.2vw, 3.75rem);
+}
+
+/* Tighten the transition from About me → Publications */
+#about {
+  padding-bottom: 30px;
+}
+
+#about p:last-child {
+  margin-bottom: 0;
+}
+
+#publications {
+  padding-top: 30px;
+}
+
+/* Preserve sensible wrapping on small screens */
+@media (max-width: 760px) {
+  .identity h1 {
+    white-space: normal;
+    font-size: 2.5rem;
+  }
+}
