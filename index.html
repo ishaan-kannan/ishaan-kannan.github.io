@@ -263,13 +263,21 @@
     <span>© 2026 Ishaan Kannan</span>
   </footer>
 
-  <script>
+<script>
   document.querySelectorAll('a[href]').forEach(link => {
-    link.target = '_blank';
-    link.rel = 'noopener';
+    const url = new URL(link.href, window.location.href);
+
+    const isExternal = url.hostname !== window.location.hostname;
+    const isCV = url.pathname.endsWith('.pdf');
+
+    if (isExternal || isCV) {
+      link.target = '_blank';
+      link.rel = 'noopener';
+    }
   });
 </script>
+
 <script data-goatcounter="https://ikannan.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>
-</html>  
+</html>
