@@ -207,7 +207,7 @@ nav a.active::after {
 
 /* Tighten the transition from About me → Publications */
 #about {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 #about p:last-child {
@@ -215,7 +215,7 @@ nav a.active::after {
 }
 
 #publications {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 /* Preserve sensible wrapping on small screens */
